@@ -1,0 +1,1 @@
+A Python-based GUI for controlling a Red Pitaya via SCPI, featuring a 2-channel signal generator and oscilloscope, DMA-based data acquisition for high-speed data export and live streaming, data visualization, and CSV/NPZ export.
