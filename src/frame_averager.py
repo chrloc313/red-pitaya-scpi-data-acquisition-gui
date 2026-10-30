@@ -1,9 +1,6 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jul 22 16:32:38 2025
+# frame_averager.py
+# Averages data based on last N acquistions
 
-@author: User
-"""
 import numpy as np
 
 class FrameAverager:

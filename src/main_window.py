@@ -1,4 +1,5 @@
 # main_window.py
+# UI interface and Graphing
 
 import numpy as np
 import pyqtgraph as pg
@@ -122,7 +123,7 @@ class MainWindow(QMainWindow):
         min_amp, max_amp, initial_amp = -1, 1, 1
         self.ch1_amp_spinbox = create_spinbox(min_amp, max_amp, initial_amp, lambda: self.on_amp_changed(1),
                                               double=True, decimals=2, step=0.01)
-        self.ch2_amp_spinbox = create_spinbox(min_amp, max_amp, initial_amp, lambda: self.on_freq_changed(2),
+        self.ch2_amp_spinbox = create_spinbox(min_amp, max_amp, initial_amp, lambda: self.on_amp_changed(2),
                                               double=True, decimals=2, step=0.01)
         
         # Add channel 1 controls to row 2 layout

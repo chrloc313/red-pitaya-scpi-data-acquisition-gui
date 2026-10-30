@@ -1,3 +1,7 @@
+# main.py
+# Establishes local SCPI connection to Redpitaya
+# Initialize PyQT application
+
 import redpitaya_scpi_core as scpi
 from PyQt5.QtWidgets import QApplication
 from main_window import MainWindow

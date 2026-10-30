@@ -1,9 +1,7 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Sep  8 10:33:04 2025
-
-@author: User
-"""
+# save_data.py
+# Functions for different data saves:
+# Live saving: .CSV, .NPZ
+# DMA saving: .CSV, .NPZ
 
 import re
 import numpy as np

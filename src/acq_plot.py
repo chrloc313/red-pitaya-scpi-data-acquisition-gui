@@ -1,10 +1,5 @@
-# plot_logic.py
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Aug 25 15:21:51 2025
-
-@author: User
-"""
+# acq_plot.py
+# Data Aquisition commands and Graphing functions
 
 import numpy as np
 import time

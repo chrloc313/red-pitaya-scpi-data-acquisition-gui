@@ -1,10 +1,5 @@
 # ui_components.py
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Aug 25 15:21:53 2025
-
-@author: User
-"""
+# Helper functions for creating UI widgets
 
 from PyQt5.QtWidgets import (
     QLabel, QCheckBox, QSpinBox, 
