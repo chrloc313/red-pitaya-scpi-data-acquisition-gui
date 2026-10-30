@@ -1,7 +1,9 @@
-A Python-based GUI for controlling a Red Pitaya via SCPI, featuring a 2-channel signal generator and oscilloscope, DMA-based data acquisition for high-speed data export and live streaming, data visualization, and CSV/NPZ export.
+# Red Pitaya SCPI Data Acquisition GUI
 
-The application supports deep memory waveform acquisition through the Red Pitaya's built-in AXI DMA-backed storage, enabling captures of up to 412 MB with temporary on-device storage and post acquisition file transfer. 
+A Python-based GUI for controlling a Red Pitaya through SCPI. The application provides a two-channel signal generator and oscilloscope, along with high-speed data acquisition, live streaming, and waveform visualization.
 
-Binary waveform transfer and NumPy based decoding minimize ASCII parsing overhead, supporting reliable acquisition and live data streaming over the SCPI server at approximately 0.5-0.9 MB/s. 
+The application supports deep-memory waveform acquisition using the Red Pitaya's built-in AXI DMA storage, allowing captures of up to 412 MB. Acquired data is temporarily stored on the device before being transferred to the host computer.
 
-The GUI interface also provides AWG test pattern validation and acquisition trigger controls to support measurements.
+To improve transfer efficiency, waveform data is transmitted in binary format and decoded using NumPy, reducing the overhead associated with ASCII-based communication. This supports waveform acquisition and live data streaming over the SCPI server at approximately 0.5–0.9 MB/s.
+
+Additional GUI features include AWG test-pattern validation, configurable acquisition triggers, and waveform visualization for signal monitoring and measurement.
